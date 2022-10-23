@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oxanium', cursive;
+}
+
+body {
+  
+  text-align: center;
+  background: linear-gradient(to bottom, #6ab7f5, #fff);
+  min-height: 100vh;
+}
+
+main {
+  display: inline-block;
+  margin-top: 2%;
+  padding: 15px;
+  position: relative;
+}
+
+.pokedex {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.pokemon__image {
+  position: absolute;
+  bottom: 38%;
+  left: 50%;
+  transform: translate(-63%, 20%);
+  height: 20%;
+}
+
+.pokemon__data {
+  position: absolute;
+  font-weight: 600;
+  color: #3a444d;
+  top: 22.3%;
+  right: 44%;
+  font-size: clamp(3px, 3vw, 25px);
+}
+
+.pokemon__name {
+  color: #3a444d;
+  text-transform: capitalize;
+}
+
+.form {
+  position: absolute;
+  width: 80%;
+  top: 73.9%;
+  left: 22%;
+}
+
+.input__search {
+  text-align: center;
+  width: 25%;
+  outline: none;
+  padding: 1.5%;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  font-weight: 600;
+  
+}
+
+.buttons {
+  position: absolute;
+  bottom: 18.5%;
+  left: 40%;
+  width: 25%;
+  transform: translate(-67%, 0);
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  width: 900%;
+  padding: 4%;
+  border: 2px solid #000;
+  border-radius: 5px;
+  font-size: clamp(8px, 5vw, 1rem);
+  font-weight: 600;
+  color: white;
+  background-color: #444;
+  box-shadow: -2px 3px 0 #222, -4px px 0 #000;
+}
+
+.button:active {
+  box-shadow: inset -4px 4px 0 #222;
+  font-size: 0.9rem;
+}
+
+#menu-h {
+  list-style: none;
+  padding: 0;
+  background-color: rgb(31, 170, 235);
+}
+
+#menu-h li{
+  display: inline;
+}
+
+#menu-h li a{
+  color: #fff;
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+  transition: background .5s;
+
+}
+
+#menu-h li a:hover {
+  background-color: #0090f0;
+}
+
+/*Pokémon Extra*/
+
+.TIPO {
+  position: absolute;
+  top: 20%;
+  left: 74%;
+  width: 25%;
+  font-size: clamp(1px, 2vw, 20px);
+}
+
+.pokemon__Type {
+  position: absolute;
+  top: 23%;
+  left: 74%;
+  width: 25%;
+  font-weight: 600;
+  color:  #3a444d;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: clamp(1px, 2vw, 25px);
+}
+
+.HP {
+  position: absolute;
+  top: 32%;
+  left: 68.2%;
+  width: 25%;
+  font-size: clamp(1px, 2vw, 20px);
+}
+
+.pokemon__Hp {
+  position: absolute;
+  top: 31.3%;
+  left: 78%;
+  width: 25%;
+  color:  #3a444d;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: clamp(1px, 2vw, 20px);
+}
+
+.PESO {
+  position: absolute;
+  top: 37%;
+  left: 69.2%;
+  width: 25%;
+  font-size: clamp(1px, 2vw, 20px);
+}
+
+.pokemon__Peso {
+  position: absolute;
+  top: 36.5%;
+  left: 78%;
+  width: 25%;
+  color:  #3a444d;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: clamp(1px, 2vw, 20px);
+}
+
+.ALTURA {
+  position: absolute;
+  top: 42%;
+  left: 70.2%;
+  width: 25%;
+  font-size: clamp(1px, 2vw, 20px);
+}
+
+.pokemon__Tamanho {
+  position: absolute;
+  top: 41.5%;
+  left: 78%;
+  width: 25%;
+  color:  #3a444d;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: clamp(1px, 2vw, 20px);
+}
+
+.SPEED {
+  position: absolute;
+  top: 48%;
+  left: 69.8%;
+  width: 25%;
+  font-size: clamp(1px, 2vw, 20px);
+}
+
+.pokemon__Velocidade {
+  position: absolute;
+  top: 47.5%;
+  left: 78%;
+  width: 25%;
+  color:  #3a444d;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: clamp(1px, 2vw, 20px);
+}
+
+.DEF {
+  position: absolute;
+  top: 55%;
+  left: 77%;
+  width: 25%;
+  font-size: clamp(1px, 2vw, 20px);
+}
+
+.pokemon__Defesa {
+  position: absolute;
+  top: 58%;
+  left: 77.2%;
+  width: 25%;
+  color:  #3a444d;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: clamp(1px, 2vw, 20px);
+}
+
+.ATK {
+  position: absolute;
+  top: 55%;
+  left: 70%;
+  width: 25%;
+  font-size: clamp(1px, 2vw, 20px);
+}
+
+.pokemon__Ataque {
+  position: absolute;
+  top: 58%;
+  left: 70%;
+  width: 25%;
+  color:  #3a444d;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: clamp(1px, 2vw, 20px);
+}
+
+.HABILIDADES {
+  position: absolute;
+  top: 64%;
+  left: 74%;
+  width: 25%;
+  font-size: clamp(1px, 2vw, 20px);
+}
+
+.pokemon__Habilidades {
+  position: absolute;
+  top: 67%;
+  left: 74%;
+  width: 25%;
+  color:  #3a444d;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: clamp(1px, 2vw, 20px);
+}
+

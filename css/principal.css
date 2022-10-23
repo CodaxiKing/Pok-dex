@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+   margin: 0 auto;
+   text-align: center;
+   background: linear-gradient(to bottom, #6ab7f5, #fff);
+   min-height: 100vh;
+   font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}
+
+#menu-h {
+    list-style: none;
+    padding: 0;
+    background: rgb(31, 170, 235);
+}
+
+#menu-h li{
+    display: inline;
+}
+
+#menu-h li a{
+    color: #fff;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#menu-h li a:hover {
+    background: #0090f0;
+    transition: background .7s;
+}
+
+
+.form {
+    position: absolute;
+    bottom: 10%;
+    width: 30;
+    top: 72.6%;
+    left: 45%;
+}
+
+
+
+.Pokemon_logo {
+    width: 50%;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: clamp(1px, 2vw, 32px);
+    width: 50 auto;
+}
+
+p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: clamp(1px, 2vw, 25px);
+    width: 50 auto;
+}
+
+.video {
+    position: absolute;
+    width: 50 auto;
+    left: 29%;
+    top: 42%;
+    border: 2px ;
+    border-radius: 20px;
+    size: clamp(1px, 2vw, 20px);
+  
+}
+
+.TituloTrailler {
+    position: absolute;
+    color: rgb(12, 12, 12);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: clamp(1px, 2vw, 40px);
+    width: 40 auto;
+    left: 23%;
+    top: 25%;
+}
+
+.SubTrailler {
+    position: absolute;
+    color: rgb(10, 10, 10);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 36px;
+    width: 40 auto;
+    left: 42%;
+    top: 31%;
+}
